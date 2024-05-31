@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHINY Pokédex ★</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shepherd.js@10.0.1/dist/css/shepherd.css" />
+</head>
+<body>
+  <div id="content-box">
+    <!--Left Content for storing photo name and others information regading pokemon-->
+    <div id="header">
+      <h1 id="region-title">Kanto Pokédex</h1>
+      <button id="start-tour">Start Tour</button>
+    </div>
+    <div id="pokemon-info">
+      <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png" alt="pokemon-img">
+      <!--For back side pokemon/back/1.png-->
+      <div id="pokemon-types">
+        <span class="type-box grass">GRASS</span>
+        <span class="type-box poison">POISON</span>
+      </div>
+      <div id="pokemon-description"></div>
+      <div id="pokemon-region-list">
+        <button onclick="loadRegion('Kanto')">Kanto Region</button>
+        <button onclick="loadRegion('Johto')">Johto Region</button>
+        <button onclick="loadRegion('Hoenn')">Hoenn Region</button>
+        <button onclick="loadRegion('Sinnoh')">Sinnoh Region</button>
+        <button onclick="loadRegion('National')">National DEX</button>
+      </div>
+    </div>
+    <!--Right side containing list of pokemon-->
+    <div id="pokemon-list">
+    </div>
+    <script src="pokedex.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/shepherd.js@10.0.1/dist/js/shepherd.min.js"></script>
+  </div>
+</body>
+</html>
