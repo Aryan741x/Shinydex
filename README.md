@@ -43,7 +43,7 @@ I would like to thank the following resources for their contributions to this pr
 
 ## Installation
 
-To run this portfolio locally, follow these steps:
+To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
