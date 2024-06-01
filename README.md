@@ -64,7 +64,7 @@ To run this project locally, follow these steps:
 
 ## Demo
 
-Watch The Pokemon.mkv file present inside the Repo.
+https://www.youtube.com/watch?v=_qb0ZYvMpTg
 
 ## GH Page Link
 
