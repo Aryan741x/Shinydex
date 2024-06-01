@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
       attachTo: { element: '#pokemon-list', on: 'right' },
       buttons: [
           {
-              text: 'Next',
+              text: 'Finish',
               action: tour.next
           }
       ]
