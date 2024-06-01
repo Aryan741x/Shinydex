@@ -53,9 +53,9 @@ To run this portfolio locally, follow these steps:
     ```bash
     cd Shinydex
     ```
-3. Run in Local Server:
+3. Run in Terminal:
    ```Server
-   run at server 8000
+   python -m http.server 8000
    ```
 4. Open a browser of your choice and enter in search box:
    ```bash
@@ -66,7 +66,7 @@ To run this portfolio locally, follow these steps:
 
 Watch The Pokemon.mkv file present inside the Repo.
 
-## GH page link
+## GH Page Link
 
 https://aryan741x.github.io/Shinydex/
 
